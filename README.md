@@ -22,5 +22,5 @@
 И в итоге я решил остановиться на VFPOLEDB.
 
 ### Полезные ссылки
- 1. [Если имя таблицы более восьми символов, то возникает ошибка](https://social.msdn.microsoft.com/Forums/ru-RU/06a350bb-4447-4893-8cf8-ed2bbdedfe37/-dbf-oledbconnection?forum=fordesktopru)
- 2. [В конце таблицы создаёт пустую колонку "_NullFlags"](https://stackoverflow.com/questions/30886730/adding-data-to-dbf-file-adds-column-nullflags)
+ 1. [Если имя таблицы содержит более восьми символов, то возникает ошибка](https://social.msdn.microsoft.com/Forums/ru-RU/06a350bb-4447-4893-8cf8-ed2bbdedfe37/-dbf-oledbconnection?forum=fordesktopru)
+ 2. [В конце таблицы создаётся пустая колонка "_NullFlags"](https://stackoverflow.com/questions/30886730/adding-data-to-dbf-file-adds-column-nullflags)
