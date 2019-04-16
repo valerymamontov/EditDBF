@@ -107,12 +107,12 @@ namespace EditDBF
                 oleConn.Open();
                 OleDbCommand oleCmd = oleConn.CreateCommand();
                 oleCmd.CommandText = "CREATE TABLE newTable (" +
-                "sn_pol c(20)," +
-                "ss c(20)," +
-                "ser_pol c(20)," +
-                "num_pol c(20))";
+                "sn_pol c(20) not null," +
+                "ss c(20) not null," +
+                "ser_pol c(20) not null," +
+                "num_pol c(20) not null)";
                 oleCmd.ExecuteNonQuery();
-
+               
                 DataSet dsDBFnew = new DataSet();
                 DataTable newTable = new DataTable();
 
