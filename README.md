@@ -1,7 +1,7 @@
 ## Небольшой обработчик DBF-файла
 ![Image alt](https://github.com/valerymamontov/screenshots/blob/master/EditDBF.png)
 
-Обработчик писался под Windows Server 2003 (x86).
+Обработчик писался на C# под Windows Server 2003 (x86).
 
 Для работы программы необходимо установить компонент Microsoft OLE DB Provider for Visual FoxPro 9.0.
 Без него DBF-файл не обработается, появится ошибка, что "Поставщик VFPOLEDB.1 не зарегистрирован на локальном компьютере".
